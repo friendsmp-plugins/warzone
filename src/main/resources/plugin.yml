@@ -1,0 +1,8 @@
+name: warzone
+version: '${version}'
+main: com.centers25.warzone.Warzone
+api-version: '26.2'
+author: centers25
+description: Warzone plugin for FriendSMP.
+depend: [plugincore]
+softdepend: [Multiverse-Core]

@@ -1,0 +1,44 @@
+worlds:
+  main: world
+  warzone: warzone
+  nether: warzone_nether
+  end: warzone_the_end
+
+confirmation-seconds: 30
+cooldown-hours: 6
+
+rtp:
+  radius: 10000
+  max-attempts: 40
+
+respawn:
+  radius: 10000
+
+kill-time:
+  killer-minutes: 10
+  repeat-window-minutes: 60
+
+friend-tickets:
+  base: 16
+  min-minutes: 30
+  max-minutes: 360
+  rates:
+    1: 0.2
+    2: 0.75
+    3: 1.0
+
+combat:
+  seconds: 30
+
+danger-log:
+  chunks: 8
+
+afk:
+  minutes: 5
+
+invisibility:
+  cooldown-minutes: 12
+
+fireworks:
+  mode: allowed
+  cooldown-seconds: 10
